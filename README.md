@@ -45,7 +45,7 @@ Make sure you have the following Python packages installed:
    ```
 
 3. **Backtesting:**
-   - `Backtester` is an abstract class for backtesting trading strategies. The `Indice` class is herited from it.
+   - `Backtester` is an abstract class for backtesting trading strategies. The `Indice` class is herited from it and allows to create an Index or to use one for testing a strategy on it..
 
    ```python
    # Example
@@ -54,8 +54,8 @@ Make sure you have the following Python packages installed:
    results = S1.backtest()
    ```
 
-5. **Trading Strategies:**
-   - `Strategie` class provides static methods for implementing trading strategies.
+4. **Trading Strategies:**
+   - `Strategie` class provides static methods for implementing trading strategies used in the Indice class.
 
    ```python
    # Example
